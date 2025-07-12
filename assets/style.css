@@ -1,0 +1,20 @@
+/* You can inject this with st.markdown('<style>...</style>', unsafe_allow_html=True) */
+.chat-message {
+    padding: 10px;
+    border-radius: 8px;
+}
+/* Input styling */
+.stTextInput > div > input {
+    padding: 8px;
+    border-radius: 10px;
+    background-color: #1a1a1a;
+    color: white;
+}
+
+/* Chat bubble tweak */
+.chat-message {
+    padding: 10px;
+    border-radius: 12px;
+    background-color: #2b2b2b;
+    margin-bottom: 6px;
+}
